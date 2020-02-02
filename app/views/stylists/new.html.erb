@@ -1,0 +1,12 @@
+<br />
+
+<div class="col-10 offset-1">
+  <h1 class="header">Enter a New Stylist's Information</h1>
+
+  <%= simple_form_for @stylist do |f| %>
+    <%= f.input :name %>
+    <%= f.input :stylist_id %>
+    <%= f.input :y_o_e %>
+    <%= f.submit "Post!" %>
+  <% end %>
+</div>

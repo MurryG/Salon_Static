@@ -13,8 +13,12 @@ background: linear-gradient(90deg, rgb(61, 81, 98), rgb(21, 39, 57));
 }
 
 .navbar-brand {
-  font-size: 4em;
+  font-size: 4rem;
   font-family: 'Dancing Script', cursive;
+}
+
+.nav-item {
+  color: white;
 }
 
 .frosty {
@@ -23,7 +27,7 @@ background: linear-gradient(90deg, rgb(61, 81, 98), rgb(21, 39, 57));
   top: 30%;
   padding: 30px 20px 20px;
   font-family: 'Gupter', serif;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -56,10 +60,22 @@ background: linear-gradient(90deg, rgb(61, 81, 98), rgb(21, 39, 57));
 }
 
 .x {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 h4 {
   text-decoration: underline dotted;
-  font-size: 1em;
+  font-size: 1rem;
+}
+
+li {
+  margin: 0 0 0 3rem;
+}
+
+.header {
+  color: white;
+}
+
+.card {
+  padding: 15px;
 }

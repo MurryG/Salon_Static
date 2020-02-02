@@ -1,0 +1,17 @@
+<br />
+
+<div class="col-10 offset-1">
+  <h1 class="header">Our Stylists</h1>
+
+  <br />
+
+  <% @stylists.each do |stylist| %>
+    <div class="card">
+      <p>Hi, my name's <%= stylist.name %>!</p>
+      <% if stylist.y_o_e.present? %>
+        <p>I've been in the salon business for <%= pluralize(stylist.y_o_e, "year") %>.</p>
+      <% end %>
+    </div>
+    <br />
+  <% end %>
+</div>
