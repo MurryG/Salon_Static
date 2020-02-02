@@ -5,8 +5,8 @@
 
   <%= simple_form_for @stylist do |f| %>
     <%= f.input :name %>
-    <%= f.input :stylist_id %>
-    <%= f.input :y_o_e %>
-    <%= f.submit "Post!" %>
+    <%= f.input :stylist_id, :label => "Stylist ID" %>
+    <%= f.input :y_o_e, :label => "Years of Experience" %>
+    <%= f.submit "Save" %>
   <% end %>
 </div>
